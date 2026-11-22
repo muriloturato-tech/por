@@ -11,7 +11,7 @@ if (botaoMenu && menu) {
 
 /* ===== Marcar link ativo no menu ===== */
 function marcarLinkAtivo() {
-  const paginaAtual = window.location.pathname.split("/").pop() || "sobre.html";
+  const paginaAtual = window.location.pathname.split("/").pop() || "index.html";
   const links = document.querySelectorAll(".menu a");
 
   links.forEach(function (link) {
